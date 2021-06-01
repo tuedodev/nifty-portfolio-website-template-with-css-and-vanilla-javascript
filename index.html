@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nifty Portfolio Template with pure CSS and Vanilla Javascript</title>
+    <link rel="stylesheet" href="dist/css/main.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="main-navigation divider-bottom shrinkable">
+            <a class="nav-logo" href="#">
+                <img src="./assets/images/logo_webdev.png" alt="logo">
+            </a>
+            <input id="nav-toggle-checkbox" type="checkbox" />
+            <label class="nav-toggle-label" for="nav-toggle-checkbox">
+                <svg class="menu" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+                <svg class="close" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </label>
+            <div class="nav-menu-wrapper">
+                <ul>
+                    <li>
+                        <a href="#" class="nav-item">
+                            Works
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">
+                            Bio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">
+                            Blogs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">
+                            Privacy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">
+                            Imprint
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <section class="main-hero">
+                <div class="hero-column-portrait">
+                    <div class="hero-column-portrait-wrapper"><div class="hero-column-portrait-photo"></div></div>
+                </div>
+                <div class="hero-column-info">
+                    <p>Hi! My name is Fabrizia from Catania, Italy, and I am the web developer of your choice.</p>
+                    <p>I like to watch movies and my favourite one is Arsenic and Old Lace with the legendary Cary Grant.</p>
+                    <p>I can take care of all your web development stuff. Please contact me now, because well, you know tomorrow this
+                        browser window can be closed.</p>
+                </div>
+            </section>
+        </main>
+        <footer class="main-footer divider-top">
+            <div class="social-media-container">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="social-media hover-animated">
+                    <img src="assets/svg/twitter.svg" alt="Twitter Logo" >
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="social-media">
+                    <img src="assets/svg/facebook.svg" alt="Facebook Logo">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="social-media">
+                    <img src="assets/svg/instagram.svg" alt="Instagram Logo">
+                </a>
+            </div>
+            <p class="copyright">&copy;tuedo.de 2021</p>
+        </footer>
+    </div>
+    <script src="dist/js/main.js"></script>
+</body>
+</html>
